@@ -53,7 +53,7 @@ function App() {
 				{/* Hemlet : Dynamic HTML header  */}
 				<Seo title={title} description={description} name={name} type={type} />
 				<Preload/>
-				
+
 				{loading ? (
 					<Loading />
 				) : (

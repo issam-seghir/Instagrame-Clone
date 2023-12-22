@@ -9,6 +9,7 @@ module.exports = {
 	// Extend configurations from various ESLint plugins
 	extends: [
 		"eslint:recommended",
+		"mantine",
 		"plugin:react/recommended",
 		"plugin:react/jsx-runtime",
 		"plugin:react-hooks/recommended",
